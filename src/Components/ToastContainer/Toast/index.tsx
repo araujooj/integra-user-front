@@ -1,11 +1,11 @@
 import React, { useEffect } from "react";
-import { ToastMessage, useToast } from "../../../Hooks/ToastContext";
 import {
   FiAlertCircle,
   FiCheckCircle,
   FiInfo,
-  FiXCircle
-} from "../../Input/node_modules/react-icons/fi";
+  FiXCircle,
+} from "react-icons/fi";
+import { ToastMessage, useToast } from "../../../Hooks/ToastContext";
 import { Container } from "./styles";
 
 interface ToastProps {

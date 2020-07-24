@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import "../assets/SFProDisplay.ttf";
+import "../Assets/SFProDisplay.ttf";
 
 export default createGlobalStyle`
   * {
@@ -11,8 +11,8 @@ export default createGlobalStyle`
 
   @font-face {
     font-family: 'SF Pro Display';
-  font-style: normal;
-  src: local('SFProDisplay'), local('SFProDisplay'),
+    font-style: normal;
+    src: local('SFProDisplay'), local('SFProDisplay'),
     url('../Assets/SFProDisplay.ttf') format('ttf'),
 }
 
@@ -25,10 +25,6 @@ export default createGlobalStyle`
   body, input, button {
     font-family: 'SF Pro Display', sans-serif;
     font-size: 16px;
-  }
-
-  h1, h2, h3, h4, h5, h6, strong {
-    font-weight: 500;
   }
 
   button {
