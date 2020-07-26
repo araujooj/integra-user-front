@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { shade } from "polished";
 
 export const Container = styled.div`
   background: #f5f5f5;
@@ -15,7 +16,14 @@ export const Container = styled.div`
     }
 
     nav {
+      flex-direction: row;
+
       margin-right: 10%;
+
+      button {
+        width: 150px;
+      }
+
       a {
         @media (max-width: 700px) {
           color: #f5f5f5;
@@ -25,17 +33,17 @@ export const Container = styled.div`
         font-size: 16px;
         transition: opacity 0.2s;
 
-        svg {
-          margin-top: 1px;
-          margin-right: 7px;
-        }
-
         & + a {
           margin-left: 32px;
         }
 
         &:hover {
-          opacity: 0.6;
+          color: ${shade(0.2, "#FF4D29")};
+        }
+
+        svg {
+          margin-top: 1px;
+          margin-right: 7px;
         }
       }
     }

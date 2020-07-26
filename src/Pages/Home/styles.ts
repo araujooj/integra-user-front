@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: stretch;
 `;
@@ -9,6 +9,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   flex-direction: column;
+  margin-bottom: 10%;
   align-items: left;
   justify-content: center;
   background: #f5f5f5 no-repeat center;
@@ -53,10 +54,10 @@ export const ProfileImage = styled.div`
   justify-content: center;
   flex: 1;
   background-size: cover;
-
+  margin-bottom: 10%;
   img {
     margin-left: 2%;
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 80%;
   }
 `;

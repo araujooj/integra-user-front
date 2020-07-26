@@ -8,7 +8,6 @@ import { Container, Content, ProfileImage } from "./styles";
 const Home: React.FC = () => {
   return (
     <>
-      <Header />
       <Container>
         <Content>
           <h2> Faça suas compras de qualquer lugar! </h2>
