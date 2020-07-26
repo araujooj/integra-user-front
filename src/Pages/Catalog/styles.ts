@@ -126,6 +126,7 @@ export const ProductList = styled.ul`
       max-height: 250px;
       padding-top: 91%;
       text-align: center;
+      border-bottom: 1px solid #ddd;
       @media (max-width: 490px) {
         padding-top: 60%;
       }
@@ -144,14 +145,13 @@ export const ProductList = styled.ul`
     > strong {
       font-size: 16px;
       line-height: 20px;
-      margin-top: 5px;
+      margin-top: 8px;
       + div {
         display: flex;
         flex-direction: column;
         margin-top: auto;
         > span {
           font-size: 21px;
-          font-weight: bold;
           margin: 5px 0 20px;
         }
         button {
